@@ -13,7 +13,7 @@ import java.util.Map;
 public abstract class SimpleBootController extends MethodBootController {
 
     /**
-     * 在没有勾选框checkbox多选的情况下，可以将Map<String,String[]>转为Map<String,String>
+     * 在没有勾选框checkbox多选的情况下，可以将{@code Map<String,String[]>}转为{@code Map<String,String>}
      *
      * @param requestWebMap 请求的web map
      * @return 普通java map
